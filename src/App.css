@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  background-image: url("https://images.unsplash.com/photo-1495195129352-aeb325a55b65?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1055&q=80");
+  /* background-position: cover; */
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .App-logo {
@@ -31,3 +35,34 @@
     transform: rotate(360deg);
   }
 }
+
+
+.card {
+background-color: #61dafb;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+border-radius: 5px;
+border: 2px solid black;
+margin: 1.5rem;
+display: inline-block;
+width: 19rem;
+height: 20rem;
+}
+
+.card:hover {
+  background-color: #61dafb;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+  border: 2px solid red;
+  margin: 1.5rem;
+  opacity: 0.5;
+  }
+
+
+.font {
+  font-weight: bold;
+}
+
+
+
